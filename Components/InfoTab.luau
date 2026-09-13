@@ -1,11 +1,7 @@
 return function(Window)
     local LatestChangelog = {
-        "11/7/2026",
-        "<font color='rgb(0, 255, 0)'>+ Added Entity ESP Selection</font>",
-		"<font color='rgb(0, 255, 0)'>+ Added Item Notifier</font>",
-		"<font color='rgb(0, 255, 0)'>+ Added Remove Surge</font>",
-		"<font color='rgb(0, 255, 0)'>+ Added Death Farm</font>",
-		"<font color='rgb(0, 255, 0)'>+ Fixed Some Broken Features (Bypass Eyes, etc)</font>",
+        "12/9/2026",
+        "<font color='rgb(0, 255, 0)'>+ uhhhh</font>",
     }
 
     local function CloneReference(Object)
@@ -68,7 +64,7 @@ return function(Window)
 
     local Community = InfoTab:AddLeftGroupbox("Community")
     Community:AddButton("Copy Discord Invite", function()
-	    toclipboard("https://dsc.gg/abysallhub")
-	    Library:Notify("Discord invite copied.")
+	    toclipboard("")
+	    Library:Notify("there no discord")
     end)
 end
