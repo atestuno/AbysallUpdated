@@ -222,6 +222,8 @@ local ItemNames = {
 	["Donut"]             = "Donut",
 	["Lotus"]             = "Lotus",
 	["BoxingGloves"]      = "Boxing Gloves",
+    ["Pizza"]             = "Pizza",
+    ["HoneyPot"]          = "Pot of Gold",
     ["PaperPlane"]        = "Paper Plane"
 }
 
