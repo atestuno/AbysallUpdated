@@ -485,7 +485,7 @@ Functions.Notify = function(Settings)
 
 	if not Options.NotifyStyle or Options.NotifyStyle.Value == "Abysall" then
 		local Sound = Instance.new("Sound", HiddenContainer)
-		Sound.SoundId = "rbxassetid://8784885431"
+		Sound.SoundId = "rbxassetid://97972687450528"
 		Sound.Volume = (Toggles.NotifyPlaySound and Toggles.NotifyPlaySound.Value and Options.NotifySoundVolume.Value) or (Toggles.NotifyPlaySound and 0 or 3)
 		Sound.PlayOnRemove = true
 		Sound:Destroy()
@@ -500,7 +500,7 @@ Functions.Notify = function(Settings)
 			end
 		end
 		Globals.DoorsNotify({
-			Title = "Abysall Hub",
+			Title = "Abysall Hub Reborn",
 			Description = Settings.Title,
 			Reason = Settings.Body,
 			Style = IsEntity and "WARNING" or "NOTIFICATION",
