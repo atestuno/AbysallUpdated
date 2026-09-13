@@ -510,7 +510,7 @@ Functions.Notify = function(Settings)
 		})
 	elseif Options.NotifyStyle.Value == "STX" then
 		local Sound = Instance.new("Sound", HiddenContainer)
-		Sound.SoundId = "rbxassetid://4590657391"
+		Sound.SoundId = "rbxassetid://97972687450528"
 		Sound.Volume = (Toggles.NotifyPlaySound and Toggles.NotifyPlaySound.Value and Options.NotifySoundVolume.Value) or (Toggles.NotifyPlaySound and 0 or 3)
 		Sound.PlayOnRemove = true
 		Sound:Destroy()
@@ -762,8 +762,8 @@ end
 local EntityDistances = {
 	["RushMoving"]    = 85,
 	["AmbushMoving"]  = 150,
-	["A60"]           = 125,
-	["A120"]          = 85,
+	["Bash"]          = 125,
+	["Scribbles"]     = 85,
 	["GlitchRush"]    = 90,
 	["GlitchAmbush"]  = 175,
 	["BackdoorRush"]  = 85,
