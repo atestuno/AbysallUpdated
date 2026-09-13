@@ -36,10 +36,10 @@ end
 task.wait(1)
 
 local Window = Library:CreateWindow({
-    Title = "Abysall Hub",
-    Footer = "dsc.gg/abysallhub",
+    Title = "Abysall Hub REBORN",
+    Footer = "no discord rn",
     NotifySide = "Right",
-    ShowCustomCursor = false,
+    ShowCustomCursor = true,
     AutoShow = true,
     Center = true,
 	TabPadding = 3,
