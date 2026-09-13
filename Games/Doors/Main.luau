@@ -119,6 +119,10 @@ local Entities = {
 		Alias = "AR0xMBUSH",
 		NotifyMessage = { Title = "Entity 'AR0xMBUSH' has spawned.", Body = "Find a hiding spot." }
 	},
+	["Teller"] = {
+		Alias = "The Teller",
+		NotifyMessage = { Title = "Entity 'Teller' has spawned.", Body = "Get the Ticket." }
+	},
 	["MonumentEntity"] = {
 		Alias = "Monument",
 		NotifyMessage = { Title = "Entity 'Monument' has spawned.", Body = "It can't move while you are looking at it." }
