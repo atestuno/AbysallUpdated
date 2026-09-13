@@ -392,13 +392,13 @@ Groupboxes.General_QuickPlay:AddButton({
 })
 
 Groupboxes.General_QuickPlay:AddButton({
-	Text = "The Rooms",
+	Text = "The Archives",
 	DoubleClick = false,
 	Func = function()
 		RemotesFolder.CreateElevator:FireServer({
         	Mods = {},
         	Settings = {},
-        	Destination = "Rooms",
+        	Destination = "Archives",
         	FriendsOnly = false,
         	MaxPlayers = "1"
     	})
@@ -510,15 +510,15 @@ Groupboxes.General_QuickPlay:AddButton({
 Groupboxes.General_QuickPlay:AddDivider()
 
 Groupboxes.General_QuickPlay:AddButton({
-	Text = "The Rooms [Free, No Progress]",
-	DoubleClick = false,
+	Text = "The Archives [Free, No Progress]",
+	DoubleClick = true,
 	Func = function()
 		RemotesFolder.CreateElevator:FireServer({
         	Mods = {
 				"AdminPanel"
 			},
         	Settings = {},
-        	Destination = "Rooms",
+        	Destination = "Archives",
         	FriendsOnly = false,
         	MaxPlayers = "1"
     	})
