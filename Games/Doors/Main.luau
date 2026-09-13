@@ -119,7 +119,7 @@ local Entities = {
 		Alias = "AR0xMBUSH",
 		NotifyMessage = { Title = "Entity 'AR0xMBUSH' has spawned.", Body = "Find a hiding spot." }
 	},
-	["Teller"] = {
+	["TellerEntity"] = {
 		Alias = "The Teller",
 		NotifyMessage = { Title = "Entity 'Teller' has spawned.", Body = "Get the Ticket." }
 	},
@@ -150,6 +150,9 @@ local EntityIcons = {
 	["AmbushMoving"]    = "rbxassetid://10110576663",
 	["Bash"]             = "rbxassetid://12571092295",
 	["Scribbles"]            = "rbxassetid://12711591665",
+    ["Drones"]            = "rbxassetid://9762988755",
+    ["DronesStampede"]            = "rbxassetid://9762988755",
+    ["TellerEntity"]            = "rbxassetid://9762988755",
 	["BackdoorRush"]    = "rbxassetid://16602023490",
 	["Eyes"]            = "rbxassetid://10183704772",
 	["Lookman"]         = "rbxassetid://10183704772",
