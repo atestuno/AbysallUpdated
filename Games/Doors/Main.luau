@@ -103,6 +103,10 @@ local Entities = {
 		Alias = "Drone",
 		NotifyMessage = { Title = "The 'Drones' has spawned.", Body = "Don't touch them." }
 	},
+	["DronesStampede"] = {
+		Alias = "Drones",
+		NotifyMessage = { Title = "The 'Drones' are Coming.", Body = "Just Move!" }
+	},
 	["GloombatSwarm"] = {
 		Alias = "Gloombat Swarm",
 		NotifyMessage = { Title = "Entity 'Gloombat Swarm' has spawned.", Body = "Keep all light sources turned off." }
