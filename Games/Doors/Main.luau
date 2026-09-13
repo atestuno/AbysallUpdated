@@ -91,13 +91,17 @@ local Entities = {
 		Alias = "Groundskeeper",
 		NotifyMessage = { Title = "Entity 'Groundskeeper' has spawned.", Body = "Avoid stepping on the grass." }
 	},
-	["A60"] = {
-		Alias = "A-60",
-		NotifyMessage = { Title = "Entity 'A-60' has spawned.", Body = "Find a hiding spot." }
+	["Bash"] = {
+		Alias = "Bash",
+		NotifyMessage = { Title = "Entity 'Bash' has spawned.", Body = "Find a hiding spot." }
 	},
-	["A120"] = {
-		Alias = "A-120",
-		NotifyMessage = { Title = "Entity 'A-120' has spawned.", Body = "Find a hiding spot." }
+	["Scribbles"] = {
+		Alias = "Scribbles",
+		NotifyMessage = { Title = "Entity 'Scribbles' has spawned.", Body = "Find a hiding spot or go to a room." }
+	},
+	["Drones"] = {
+		Alias = "Drone",
+		NotifyMessage = { Title = "The 'Drones' has spawned.", Body = "Don't touch them." }
 	},
 	["GloombatSwarm"] = {
 		Alias = "Gloombat Swarm",
@@ -136,8 +140,8 @@ local Entities = {
 local EntityIcons = {
 	["RushMoving"]      = "rbxassetid://10716032262",
 	["AmbushMoving"]    = "rbxassetid://10110576663",
-	["A60"]             = "rbxassetid://12571092295",
-	["A120"]            = "rbxassetid://12711591665",
+	["Bash"]             = "rbxassetid://12571092295",
+	["Scribbles"]            = "rbxassetid://12711591665",
 	["BackdoorRush"]    = "rbxassetid://16602023490",
 	["Eyes"]            = "rbxassetid://10183704772",
 	["Lookman"]         = "rbxassetid://10183704772",
@@ -209,7 +213,8 @@ local ItemNames = {
 	["AloeVera"]          = "Aloe Vera",
 	["Donut"]             = "Donut",
 	["Lotus"]             = "Lotus",
-	["BoxingGloves"]      = "Boxing Gloves"
+	["BoxingGloves"]      = "Boxing Gloves",
+    ["PaperPlane"]        = "Paper Plane"
 }
 
 local CutsceneNames = {
