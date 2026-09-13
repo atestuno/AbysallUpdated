@@ -99,6 +99,14 @@ local Entities = {
 		Alias = "Scribbles",
 		NotifyMessage = { Title = "Entity 'Scribbles' has spawned.", Body = "Find a hiding spot or go to a room." }
 	},
+	["Creak"] = {
+		Alias = "Creak",
+		NotifyMessage = { Title = "The 'Creak' has spawned.", Body = "bro has the keys to anyone rooms bro get out☠️☠️☠️☠️" }
+	},
+	["NoiseModel"] = {
+		Alias = "Noise",
+		NotifyMessage = { Title = "The 'Noise' has spawned.", Body = "bro has the keys to anyone rooms bro get out☠️☠️☠️☠️" }
+	},
 	["Drones"] = {
 		Alias = "Drone",
 		NotifyMessage = { Title = "The 'Drones' has spawned.", Body = "Don't touch them." }
@@ -153,6 +161,8 @@ local EntityIcons = {
     ["Drones"]            = "rbxassetid://9762988755",
     ["DronesStampede"]            = "rbxassetid://9762988755",
     ["TellerEntity"]            = "rbxassetid://9762988755",
+    ["Creak"]            = "rbxassetid://9762988755",
+    ["NoiseModel"]            = "rbxassetid://9762988755",
 	["BackdoorRush"]    = "rbxassetid://16602023490",
 	["Eyes"]            = "rbxassetid://10183704772",
 	["Lookman"]         = "rbxassetid://10183704772",
