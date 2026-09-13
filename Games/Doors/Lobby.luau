@@ -480,6 +480,19 @@ Groupboxes.General_QuickPlay:AddButton({
 })
 
 Groupboxes.General_QuickPlay:AddButton({
+	Text = "Rooms [does not work i think]",
+	DoubleClick = false,
+	Func = function()
+		RemotesFolder.CreateElevator:FireServer({
+        	Mods = {},
+        	Settings = {},
+        	Destination = "Rooms",
+        	FriendsOnly = false,
+        	MaxPlayers = "1"
+    	})
+	end
+})
+Groupboxes.General_QuickPlay:AddButton({
 	Text = "Hotel-",
 	DoubleClick = false,
 	Func = function()
