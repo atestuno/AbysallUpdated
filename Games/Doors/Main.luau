@@ -1288,7 +1288,7 @@ Groupboxes.Exploits_Bypass:AddToggle("BypassVacuum",         { Text = "Bypass Va
 Groupboxes.Exploits_Bypass:AddToggle("BypassKillbricks",     { Text = "Bypass Killbricks",       Default = false, Tooltip = "Prevents 'Lava' from hurting you." })
 Groupboxes.Exploits_Bypass:AddToggle("BypassSeekingWall",    { Text = "Bypass Seeking Wall",     Default = false, Tooltip = "Prevents 'ScaryWall' from hurting you." })
 Groupboxes.Exploits_Bypass:AddToggle("BypassSnare",          { Text = "Bypass Snare",            Default = false, Tooltip = "Prevents 'Snare' from trapping you." })
-Groupboxes.Exploits_Bypass:AddToggle("BypassDrone",          { Text = "Bypass Drones",            Default = false, Tooltip = "Prevents you from the 'Drone' from being touched" })
+Groupboxes.Exploits_Bypass:AddToggle("BypassDrone",          { Text = "Bypass Drones [bugged]",            Default = false, Tooltip = "Prevents you from the 'Drone' from being touched" })
 Groupboxes.Exploits_Bypass:AddToggle("BypassBanana",         { Text = "Bypass Banana",           Default = false, Tooltip = "Prevents 'Banana Peel' from slipping you up (sometimes doesn't work)." })
 Groupboxes.Exploits_Bypass:AddToggle("BypassJeff",           { Text = "Bypass Jeff",             Default = false, Tooltip = "Prevents 'Jeff the Killer' from stabbing you (sometimes doesn't work)." })
 
