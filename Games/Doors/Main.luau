@@ -229,6 +229,7 @@ local ItemNames = {
 	["KeyIron"]           = "Iron Key",
 	["IronKeyForCrypt"]   = "Iron Key",
 	["LotusHolder"]       = "Lotus Petal",
+	["LotusPetalPickup"]       = "Lotus Petal",
 	["Multitool"]         = "Multitool",
 	["RiftJar"]           = "Rift Jar",
 	["AloeVera"]          = "Aloe Vera",
