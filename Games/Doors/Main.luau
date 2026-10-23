@@ -244,6 +244,7 @@ local ItemNames = {
     ["HoneyPot"]          = "Pot of Gold",
     ["GweenSodaPack"]     = "Pack of Soda",
     ["BottleCrate"]       = "Crate of Bottles",
+    ["KeyJewelry"]        = "Jewelry Key",
     ["PaperPlane"]        = "Paper Plane"
 }
 
